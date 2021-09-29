@@ -6,7 +6,6 @@ function(haystack, needle) {
     while(i < haystack.length){
         
         if(haystack.slice(i, i + needle.length) === needle){
-            console.log('if statement')
             return i
         } else {
             i++            
